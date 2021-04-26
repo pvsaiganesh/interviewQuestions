@@ -1,0 +1,15 @@
+/* Write you CSS here */
+.image {
+  height: 50vh;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.bg {
+  padding: 40px;
+}
+.heading {
+  font-family: 'Playfair Display';
+  font-size: 68px;
+}
