@@ -16,13 +16,15 @@ class InterviewQuestionsApp extends Component {
     this.setState({lang: e.target.value})
   }
 
+  renderHeading = () => <h1>30 Seconds of Interviews</h1>
+
   render() {
     const {questionsData, levelsData, languageData} = this.props
     const {level, lang} = this.state
     return (
       <div className="bg">
-        <h1 className="heading">30 Seconds of Interviews</h1>
-        <div className="row">
+        {this.renderHeading()}
+        <div className="row-2">
           <img
             className="image"
             src="https://assets.ccbp.in/frontend/react-js/interview-questions-img.png"

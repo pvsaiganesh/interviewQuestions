@@ -2,14 +2,14 @@
 .image {
   height: 50vh;
 }
-.row {
+.row-2 {
   display: flex;
   flex-direction: row;
-}
-.bg {
+  background-image: radial-gradient(#2b237c, #180d5b);
   padding: 40px;
 }
 .heading {
   font-family: 'Playfair Display';
   font-size: 68px;
+  color: #ffffff;
 }

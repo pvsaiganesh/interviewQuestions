@@ -112,11 +112,13 @@ const languageData = [
 ]
 
 const App = () => (
-  <InterviewQuestionsApp
-    questionsData={questionsData}
-    levelsData={levelsData}
-    languageData={languageData}
-  />
+  <div>
+    <InterviewQuestionsApp
+      questionsData={questionsData}
+      levelsData={levelsData}
+      languageData={languageData}
+    />
+  </div>
 )
 
 export default App
